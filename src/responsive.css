@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* ANDROID*/
+@media screen and (max-width: 480px) {
+  /**/
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .left-container {
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  .title-course {
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    height: 40%;
+  }
+  .subtitle-course {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    height: 30%;
+  }
+  .btn-course {
+    width: 40%;
+    margin-top: 10%;
+  }
+
+  .right-container {
+    width: 100%;
+    left: 0%;
+    top: 101%;
+  }
+  .espaço-img {
+    width: 100%;
+    left: 0%;
+  }
+  .img-container {
+    width: 100%;
+    top: 40px;
+    height: auto;
+  }
+  .bola01 {
+    left: 0%;
+    top: 30px;
+    height: 15%;
+    width: auto;
+  }
+  .bola02 {
+    left: 85%;
+    height: 15%;
+    width: auto;
+    top: 60%;
+  }
+
+  .Ed-msg {
+    margin-top: 78%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    left: 0%;
+    flex-wrap: wrap;
+    height: 1000px;
+  }
+  .left-ed {
+    width: 100%;
+    height: 50%;
+  }
+  .right-ed {
+    width: 100%;
+    height: 40%;
+    top: 52%;
+    left: 0%;
+  }
+  .title-ed {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+  }
+
+  .footer {
+    margin-top: 168%;
+    width: 100%;
+    height: 310%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+  }
+  .list {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .certif_btn {
+    top: 0%;
+    left: 100px;
+    position: absolute;
+  }
+  .one,
+  .two,
+  .three {
+    background-color: black;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+    transition-duration: 0.3s;
+  }
+  .menu-toggle {
+    width: 40px;
+    height: 30px;
+  }
+
+  .menu-section.on {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, #3ae4df 0%, #7a88ff 104.29%);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .menu-section.on nav {
+    display: block;
+  }
+  .menu-section.on .menu-toggle {
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
+  .menu-section.on .menu-toggle .one {
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+  .menu-section.on .menu-toggle .two {
+    opacity: 0;
+  }
+  .menu-section.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(8px, -9px);
+  }
+  .menu-section.on nav ul {
+    margin-top: -40vw;
+    text-align: center;
+    display: block;
+  }
+  .menu-section.on nav ul li {
+    transition-duration: 0.5s;
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+  .menu-section.on .certif_btn {
+    display: none;
+  }
+
+  .up-training {
+    width: 100%;
+    height: 70px;
+    left: 0%;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .courses-footer {
+    width: 100%;
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-course {
+    width: 90%;
+    height: auto;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  .box-course {
+    width: 60%;
+  }
+  .img-oracle {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+  .img-android {
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+  .img-cisco {
+    margin-top: 50px;
+    margin-left: 75px;
+  }
+  .img-python {
+    margin-top: 60px;
+    margin-left: 80px;
+  }
+}

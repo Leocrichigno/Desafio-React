@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/*Tamanho do cbç para entrar o header c as divs*/
+/* .cabeçalho {
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+*/
+
+.header {
+  /* Header onde vou dividir em 3 para por logo,itens e btn*/
+  height: 50px;
+  margin: 20px;
+  width: 1300px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  /* Configs da logo*/
+  height: 50px;
+  width: 90px;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: rgb(9, 223, 223);
+}
+
+.div-menu {
+  /* Div onde entrará os itens*/
+  height: 50px;
+  width: 800px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.list {
+  /* posicionamento dos itens dentro da div-menu*/
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  height: 25px;
+  width: 750px;
+}
+
+.itens {
+  /* Estilização dos itens  */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  margin-right: 50px;
+}
+
+.certif_btn {
+  /*Config do btn*/
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.certificado {
+  /* Estilização certificado*/
+  align-items: center;
+  height: 25px;
+  width: 40%;
+  margin-top: 10px;
+  margin: 16px 10px 10px 3px;
+}
+
+.btn-header {
+  /*Estilização do botão*/
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 120px;
+  height: 35px;
+  background: linear-gradient(90deg, #3ae4df 0%, #7a88ff 104.29%);
+  border-radius: 4px;
+
+  /*Estilização da Fonte do botão do header*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.container {
+  /* Declarando o tamanho do container onde entrara 2 divs pai */
+  position: absolute;
+  top: 100px;
+  height: 10px;
+  width: 100%;
+  height: 600px;
+  left: 0%;
+  right: 0%;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(90deg, #fffceb 0%, #eafffe 100%);
+  flex-wrap: wrap;
+}
+
+.left-container {
+  /* Div pai da esquerda onde entrará as informações*/
+  width: 375px;
+  height: 357px;
+  margin-left: 109px;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-course {
+  /* Titulo*/
+  width: 399px;
+  height: 150px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 68px;
+  color: #000000;
+}
+
+.subtitle-course {
+  /*Sub-titulo */
+  top: 155px;
+  width: 370px;
+  height: 100px;
+  font-size: 19px;
+  color: #000000;
+}
+
+.btn-course {
+  /* Config btn*/
+  top: 255px;
+  width: 180px;
+  height: 50px;
+  background: linear-gradient(90deg, #3ae4df 0%, #7a88ff 100%);
+  border-radius: 5px;
+}
+
+.text-btn {
+  /* Config txt do btn*/
+  height: 22px;
+  left: 25px;
+  right: 24px;
+  top: 5px;
+
+  /*Estilização texto btn*/
+
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 10px;
+  color: #ffffff;
+}
+
+.right-container {
+  /* Definindo onde vai ficaram as imgs*/
+  position: absolute;
+  width: 775px;
+  height: 500px;
+  left: 487px;
+  top: 60px;
+}
+.espaço-img {
+  /*espaço para a img principal*/
+  height: 470px;
+  width: 650px;
+  left: 60px;
+  position: absolute;
+}
+.img-container {
+  /*Img principal*/
+  top: -0px;
+  left: -21px;
+  position: absolute;
+  height: 100%;
+  width: 693px;
+}
+
+.bola01 {
+  /*Local onde as bolas amarelas iram ficar*/
+  position: absolute;
+  height: 122px;
+  width: 100px;
+}
+
+.bola02 {
+  /*Local onde as bolas azuis iram ficar*/
+  position: absolute;
+  height: 122px;
+  width: 100px;
+  left: 658px;
+  top: 375px;
+}
+
+.Ed-msg {
+  /*  Div onde entrará a parte da esq e dir*/
+  position: absolute;
+  width: 1020px;
+  height: 450px;
+  left: 109px;
+  top: 780px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-ed {
+  /* Parte da esqueda onde vai entrar 3 itens(foto,bolas e fundo)*/
+  width: 405px;
+  height: 100%;
+  display: flex;
+}
+
+.img-ed {
+  /* Imag do Ed*/
+  height: 355px;
+  width: 312px;
+  background-color: white;
+  margin-top: 95px;
+  position: absolute;
+}
+
+.fundo-ed {
+  /*  Fundo azul q fica atras da img*/
+  width: 365px;
+  height: 370px;
+  background: linear-gradient(
+    92.18deg,
+    rgba(132, 238, 235, 0.35) 1.83%,
+    rgba(204, 209, 255, 0.35) 98.3%
+  );
+  border-radius: 4px;
+  position: absolute;
+  left: 40px;
+}
+
+.bola-img {
+  /* Bolas sobreposta do fundo azul*/
+  position: absolute;
+  margin-left: 275px;
+  margin-top: 59px;
+}
+
+.right-ed {
+  /* Div onde vai entrar (titulo,subti,conteudo e link)*/
+  left: 55.6%;
+  right: 0%;
+  top: 10%;
+  bottom: 10%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-ed {
+  height: 80px;
+  width: 370px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.subtitle-ed {
+  height: 80px;
+  width: 100%;
+  top: 80px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.content-ed {
+  height: 90px;
+  width: 100%;
+  top: 185px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.link-ed {
+  width: 70px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 145%;
+  text-decoration-line: underline;
+  color: #23b8b3;
+  pointer-events: none;
+}
+
+.footer {
+  position: absolute;
+
+  width: 1100px;
+  height: 500px;
+  left: 109px;
+  top: 1350px;
+}
+
+.up-training {
+  height: 45px;
+  width: 300px;
+  position: absolute;
+  left: 420px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #000000;
+}
+
+.courses-footer {
+  height: 380px;
+  width: 100%;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container-course {
+  width: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.box-course {
+  width: 100%;
+  height: 160px;
+  background: #fff5f6;
+  border-radius: 4px;
+}
+.img-oracle {
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+.img-python {
+  margin-top: 60px;
+  margin-left: 40px;
+}
+.img-cisco {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.img-android {
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.course-android {
+  background: #ebfff4;
+  border-radius: 4px;
+}
+
+.title-footer {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.inf-footer {
+  height: 80px;
+  width: 230px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.btn-footer {
+  height: 30px;
+  width: 110px;
+  bottom: 1%;
+  background: linear-gradient(90deg, #3ae4df 0%, #7a88ff 104.29%);
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
